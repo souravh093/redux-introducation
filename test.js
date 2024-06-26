@@ -14,4 +14,6 @@ const add = (a) => {
   };
 };
 
-console.log(add(5)(3)(2));
+const label = add(1);
+
+console.log(label(2)(3))
